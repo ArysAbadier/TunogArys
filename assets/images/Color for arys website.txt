@@ -1,0 +1,4 @@
+darkest: 28282B
+middle: 333333
+middle: 98989c
+lightest: fdfbf9

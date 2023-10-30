@@ -1,0 +1,395 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:  'Codec Cold Trial', sans-serif;
+    background-color: rgb(53, 53, 53);
+}
+
+.container{
+    padding: 10px 3%;
+    position: sticky;
+    top:0; 
+    background-color: transparent;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.logo h1{
+    color:#fdfbf9;
+
+}
+.logo a{
+    text-decoration: none;
+}
+.header-container{
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('../assets/images/BACKGROUND\ 1.1.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px); /* Adjust the blur amount as needed */  
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    z-index: 100;
+    position: sticky; 
+    top: 0; 
+}
+.nav-list a{
+    text-decoration: none;
+    color: #fdfbf9;
+    font-size: 1.25rem;
+    margin-right: 3.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover{
+    color: #CB4F80; 
+
+
+    
+}
+.nav-list ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.nav-list ul li a{
+    color: #fdfbf9; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    position:relative;
+    font-family: "Aharoni", sans-serif;
+}
+
+.header-text-container{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    margin-right:30rem;
+    height: 31.25rem;
+}
+.header-text{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-text h2{
+    color: #fdfbf9; 
+    z-index: 100;
+    font-size: 4rem;
+}
+
+
+.header-text p{
+    color: #fdfbf9; 
+    font-size: 1.5rem;
+    z-index: 100;
+    font-family: "Avenir Next Cyr", sans-serif;
+}
+
+.about-section{
+    width: 100%; 
+    height: 64rem;
+    background-image: url("../assets/images/BACKGROUND\ 1.1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section::before{
+    content: "";
+    position: absolute;
+    top: 60.5rem;
+    left: 0;
+    width: 100%;
+    height: 64rem;
+    backdrop-filter: blur(5px); /* Adjust the blur amount as needed */ 
+}
+
+
+.about-img{
+    width:21.875rem;
+    height:21.875rem;
+    background-image: url("../assets/images/BG1.2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.about-text{ 
+    width: 25rem;
+    height: 25rem;
+    margin-left: 10rem;
+    z-index: 1000;
+}
+
+.about-text h2{
+    color: #fdfbf9; 
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: .625rem;
+    text-align: center;
+}
+
+.about-text p{
+    color: #fdfbf9;
+    text-align: justify;
+    font-size:  1.25rem;
+    font-family:  "Avenir Next Cyr", sans-serif;
+}
+
+.work-section{
+    width: 100%; 
+    height: 128rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/images/BACKGROUND\ 2.1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1.25rem;
+}
+.work-section::before{
+    content: "";
+    position: absolute;
+    top: 124.5rem;
+    left: 0;
+    width: 100%;
+    height: 128rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.work-header{
+    z-index: 1000;
+}
+
+.work-section h2{
+    font-size: 3.5rem; 
+    font-weight: 500;
+    text-align: center;
+    color: #fdfbf9;
+}
+
+.film-foley-works{ 
+    padding: 10px 5%;
+    z-index: 1000;
+}
+
+.film-foley-works h3{
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: "Avenir Next Cyr", sans-serif;
+    color: #fdfbf9; 
+
+}
+
+.films-foley{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding-top: 1.25rem;
+}
+
+
+
+.film-foley-content{
+    width: 15.625rem;
+    height: 15.625rem;
+    background-image: url("../assets/images/BACKGROUND\ 1.3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.music{ 
+    padding: 10px 5%;
+    z-index: 1000;
+}
+.music h3{
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: "Avenir Next Cyr", sans-serif;
+    color: #fdfbf9; 
+
+}
+
+.music-content-container{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding-top: 1.25rem;
+}
+
+.music-content{
+    width: 15.625rem;
+    height: 15.625rem;
+    background-image:url("../assets/images/BACKGROUND\ 2.2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+.music-content-container h4{
+    color: #fdfbf9;
+    font-family: "Avenir Next Cyr", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.extra{ 
+    padding: 10px 5%;
+    z-index: 1000;
+}
+
+.extra h3{
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: "Avenir Next Cyr", sans-serif;
+    color: #fdfbf9; 
+
+}
+
+.extra h5{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Avenir Next Cyr", sans-serif;
+    color: #fdfbf9; 
+    margin-top: 0.625rem;
+
+}
+
+
+.extra-content-container{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding-top: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.extra-content{
+    width: 15.625rem;
+    height: 15.625rem;
+    background-image:url("../assets/images/BACKGROUND\ 2.2.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+button{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-style: none;
+    background-color:#28282B ;
+    transition: background-color 0.5s ease;
+}
+
+button:hover{
+    background-color: #fdfbf9;
+}
+
+button:hover h4{
+    color: #28282B;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #333333;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+    z-index: 2000;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.content{ 
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+.content h4{
+    color: #fdfbf9; 
+    font-size: 2rem;
+    font-family: "Avenir Next Cyr", sans-serif;
+    margin-bottom: 5rem;
+}
+
+button h4{
+    color: #fdfbf9; 
+    font-size: 1rem;
+    font-family: "Avenir Next Cyr", sans-serif;
+}
+
