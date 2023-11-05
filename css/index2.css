@@ -162,7 +162,7 @@ body{
 
 .work-section{
     width: 100%; 
-    height: 216rem;
+    height: 237rem;
     display: flex;
     flex-direction: column;
     background-image: url("../assets/images/BACKGROUND\ 2.1.jpg");
@@ -187,7 +187,7 @@ body{
     padding: 10px 5%;
     z-index: 1000;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .film-foley-works h3{
@@ -272,6 +272,7 @@ body{
     padding: 10px 5%;
     z-index: 1000;
     margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 .music h3{
     font-size: 2rem;
