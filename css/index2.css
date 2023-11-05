@@ -129,7 +129,7 @@ body{
 .about-section::before{
     content: "";
     position: absolute;
-    top: 54.2rem;
+    top: 59.5rem;
     left: 0;
     width: 100%;
     height: 65.5rem;
@@ -185,10 +185,10 @@ body{
 .work-section::before{
     content: "";
     position: absolute;
-    top: 118.3rem;
+    top: 123.5rem;
     left: 0;
     width: 100%;
-    height: 202rem;
+    height: 202.25rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
