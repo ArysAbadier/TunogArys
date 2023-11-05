@@ -129,7 +129,7 @@ body{
 .about-section::before{
     content: "";
     position: absolute;
-    top: 55.5rem;
+    top: 54.2rem;
     left: 0;
     width: 100%;
     height: 65.5rem;
@@ -185,7 +185,7 @@ body{
 .work-section::before{
     content: "";
     position: absolute;
-    top: 123.75rem;
+    top: 118.3rem;
     left: 0;
     width: 100%;
     height: 202rem;
@@ -499,6 +499,8 @@ button h4{
 }
 
 footer{
+    width: 100%;
+    height: 50px;
    display: flex;
    justify-content: center;
    align-items: center;
