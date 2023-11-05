@@ -38,6 +38,10 @@ body{
     background-position: center;
 }
 
+.header-container h1{
+    margin-left: 1.25rem;
+}
+
 .header-container::before{
     content: "";
     position: absolute;
@@ -125,10 +129,10 @@ body{
 .about-section::before{
     content: "";
     position: absolute;
-    top: 60.5rem;
+    top: 59.5rem;
     left: 0;
     width: 100%;
-    height: 64rem;
+    height: 65.5rem;
     backdrop-filter: blur(5px); /* Adjust the blur amount as needed */ 
 }
 
@@ -136,13 +140,13 @@ body{
 .about-img{
     width:21.875rem;
     height:21.875rem;
-    background-image: url("../assets/images/BG1.2.png");
-    background-position: center;
+    background-image: url("../assets/images/ARTIST\ PICTURE\ 3.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
     z-index: 1000;
+    margin-bottom: 3.5rem;
 }
 
 .about-text{ 
@@ -169,7 +173,7 @@ body{
 
 .work-section{
     width: 100%; 
-    height: 128rem;
+    height: 202rem;
     display: flex;
     flex-direction: column;
     background-image: url("../assets/images/BACKGROUND\ 2.1.jpg");
@@ -181,10 +185,10 @@ body{
 .work-section::before{
     content: "";
     position: absolute;
-    top: 124.5rem;
+    top: 123.75rem;
     left: 0;
     width: 100%;
-    height: 128rem;
+    height: 202rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
@@ -224,17 +228,68 @@ body{
 .film-foley-content{
     width: 15.625rem;
     height: 15.625rem;
-    background-image: url("../assets/images/BACKGROUND\ 1.3.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+}
+
+.alab{
+    background-image: url('../assets/images/Alab\ Sa\ Likod\ ng\ Tono.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.doet{
+    background-image: url("../assets/images/DOET.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.liwat{
+    background-image: url("../assets/images/Liwat\ Liwat.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menor{
+    background-image: url("../assets/images/Menor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.oro{
+    background-image: url("../assets/images/Oro\ Otro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.saloobin{
+    background-image: url("../assets/images/Saloobin.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hiraya{
+    background-image: url("../assets/images/Hiraya\ Sa\ Pandemya.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.isla{
+    background-image: url("../assets/images/Isla\ Del\ Fuego.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pinid{
+    background-image: url("../assets/images/Pinid.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .music{ 
     padding: 10px 5%;
     z-index: 1000;
+    margin-top: 1.25rem;
 }
 .music h3{
     font-size: 2rem;
@@ -252,12 +307,8 @@ body{
 }
 
 .music-content{
-    width: 15.625rem;
+    width: 21rem;
     height: 15.625rem;
-    background-image:url("../assets/images/BACKGROUND\ 2.2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
     margin-top: 1.5rem;
@@ -296,13 +347,15 @@ body{
 .extra-content-container{
     display: flex;
     justify-content: space-evenly; 
+    flex-wrap: wrap;
+    gap: 2rem;
     align-items: center;
     padding-top: 1.25rem;
     flex-wrap: wrap;
 }
 
 .extra-content{
-    width: 15.625rem;
+    width: 30rem;
     height: 15.625rem;
     background-image:url("../assets/images/BACKGROUND\ 2.2.jpg");
 
@@ -312,6 +365,8 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
 }
+
+
 
 button{
     border-radius: 8px;
@@ -393,3 +448,58 @@ button h4{
     font-family: "Avenir Next Cyr", sans-serif;
 }
 
+.software-container{
+    margin-top: 5rem;    
+}
+
+.software-content-container{
+    margin-top: 8rem;
+}
+
+
+.software-one{
+    background-image: url("../assets/images/Cakewalk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.software-two{
+    background-image: url("../assets/images/Soundcloud.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.software-three{
+    background-image: url("../assets/images/Studio\ One.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.software-four{
+    background-image: url("../assets/images/Premiere\ Pro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.contact-content-container{
+    width: 35%;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
