@@ -42,17 +42,9 @@ body{
     margin-left: 1.25rem;
 }
 
-.header-container::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(1px); /* Adjust the blur amount as needed */  
-}
+
 .nav-list{
-    display: flex;
+    display: flex;  
     justify-content: space-between; 
     align-items: center;
     z-index: 100;
@@ -116,7 +108,7 @@ body{
 
 .about-section{
     width: 100%; 
-    height: 64rem;
+    height: 100vh;
     background-image: url("../assets/images/BACKGROUND\ 1.1\ blurred.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -162,11 +154,10 @@ body{
 
 .work-section{
     width: 100%; 
-    height: 237rem;
+    height: 400vh;
     display: flex;
     flex-direction: column;
     background-image: url("../assets/images/BACKGROUND\ 2.1.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 1.25rem;
