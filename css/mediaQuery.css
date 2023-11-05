@@ -1,0 +1,35 @@
+@media (max-width: 1880px){
+    .work-section{
+        height: 205rem;
+    }
+}
+
+
+@media (max-width: 1670px){
+    .film-foley-content{
+        width: 14rem;
+        height: 14rem;
+
+    }
+    .header-text-container{
+        margin-right: 20rem;
+    }
+
+    .work-section{
+        height: 218rem;
+    }
+}
+
+
+@media (max-width: 1440px){
+    .film-foley-content{
+        width: 10rem;
+        height: 10rem;
+
+    }
+
+    .work-section{
+        height: 210rem;
+    }
+    
+}
